@@ -1,0 +1,19 @@
+.lse-clear-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #666;
+    padding: 5px;
+    line-height: 1;
+    z-index: 10;
+    display: none;
+}
+
+.lse-clear-button:hover {
+    color: #000;
+}

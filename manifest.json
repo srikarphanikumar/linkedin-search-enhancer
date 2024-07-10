@@ -1,0 +1,38 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Search Clear",
+    "version": "1.0.0",
+    "description": "Enhance LinkedIn search with clear button and more features to come",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://*.linkedin.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.linkedin.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "styles.css"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/logo-24.png",
+            "48": "images/logo-24.png",
+            "128": "images/logo-24.png"
+        }
+    },
+    "icons": {
+        "16": "images/logo-24.png",
+        "48": "images/logo-24.png",
+        "128": "images/logo-24.png"
+    }
+}
