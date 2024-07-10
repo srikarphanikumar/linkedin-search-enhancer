@@ -15,8 +15,10 @@ LinkedIn Search Enhancer is a Chrome extension that improves the search experien
 
 ### From Chrome Web Store
 
-1. The extension is currently pending review for the Chrome Web Store. Once approved, the installation link will be provided here.
-2. After approval, you'll be able to visit the LinkedIn Search Enhancer page on the Chrome Web Store and click "Add to Chrome" to install the extension.
+1. Two ways you can install
+   - Go to [Chrome web store](chromewebstore.google.com) and search for 'LinkedIn Search Clear' (or)
+   - Go to this [LinkedIn Search Clear](https://chromewebstore.google.com/detail/bcnadclfncedpleodnlfdmillfejfmho?utm_source=ext_app_menu) extension directly
+2. Click on 'Add to Chrome'. 
 
 ### For Development
 
